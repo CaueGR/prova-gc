@@ -1,0 +1,15 @@
+package application;
+
+import entities.Livro;
+
+public class PrincipalLivro {
+
+	public static void main(String[] args) {
+		
+		Livro l = new Livro();
+		
+				
+
+	}
+
+}
