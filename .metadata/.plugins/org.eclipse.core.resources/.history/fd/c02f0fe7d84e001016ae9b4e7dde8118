@@ -1,0 +1,25 @@
+package application;
+
+import java.util.ArrayList;
+
+public class UsoDeForComFiltro {
+
+	public static void main(String[] args) {
+		ArrayList<String> tarefas = new ArrayList<String>();
+		tarefas.add("Fazer exercicio");
+		tarefas.add("Estudar java");
+		tarefas.add("Fazer exercicio");
+		tarefas.add("Revisar codigo");
+		
+		for(String tarefa : tarefas) {
+			if(tarefa.contains("Java")) {
+				System.out.println("Tarefa de programação: " + tarefa);
+
+			}
+		}
+
+
+
+	}
+
+}
