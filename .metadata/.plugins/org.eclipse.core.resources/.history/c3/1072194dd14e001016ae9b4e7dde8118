@@ -13,7 +13,6 @@ public class FluxoEOperadores {
 		}else {
 			System.out.println("Tarefa Comum");
 		}
-		//Resposta: Tarefa Critica
 	}
 
 }
