@@ -1,0 +1,17 @@
+package entities;
+
+public class Tarefa implements Comparable<T>{
+
+	private String titulo;
+
+	public Tarefa(String titulo) {
+		this.titulo = titulo;
+	}
+	
+
+	@Override
+	public int compareTo(T o) {
+		return this.titulo.compareTo(outra.titulo);;
+	}
+	
+}

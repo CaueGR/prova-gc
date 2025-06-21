@@ -1,0 +1,25 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import entities.Tarefa;
+
+public class PrincipalTarefa {
+
+	public static void main(String[] args) {
+		List<Tarefa> tarefas = new ArrayList<>();
+		tarefas.add(new Tarefa("Estudar"));
+		tarefas.add(new Tarefa("Almoçar"));
+		tarefas.add(new Tarefa("Dormir"));
+		
+		Collections.sort(null);
+		
+		System.out.println(tarefas);
+		
+		//[Almoçar, Dormir, Estudar]
+
+	}
+
+}
